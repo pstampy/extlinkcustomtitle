@@ -33,7 +33,7 @@ Add this to your html.tpl.php file if you have a need to show different messages
 
     <script type="text/javascript" language="javascript">
     jQuery(document).ready(function($) {
-    $('a[href^="http://"]').filter(function() {
+    $('a[href^="http"]').filter(function() {
     return this.hostname && this.hostname !== location.hostname;
     })
     .addClass("external")
