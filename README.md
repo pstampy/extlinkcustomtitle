@@ -13,7 +13,7 @@ Add this to your html.tpl.php file:
 
     <script type="text/javascript" language="javascript">
     jQuery(document).ready(function($) {
-    $('a[href^="http://"]').filter(function() {
+    $('a[href^="http"]').filter(function() {
     return this.hostname && this.hostname !== location.hostname;
     })
     .addClass("external")
