@@ -1,4 +1,4 @@
-# extlinkcustommsg - About
+# extlinkcustomtitle - About
 
 extlinkcustomtitle was created in place of the extlink module for drupal (https://www.drupal.org/project/extlink) being unavailable in the GovCMS distro (SaaS).
 
