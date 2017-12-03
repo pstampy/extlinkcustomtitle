@@ -23,7 +23,7 @@ Add this to your html.tpl.php file:
     });
     </script>
 
-This will take any a href that isn't internal, add the "external" class, and then show the message when the link is selected. This doesn't take into account https sites - if "$('a[href^="http:" was changed to "$('a[href^="https:" this would swap the problem.
+This will take any a href that isn't internal, add the "external" class, and then show the message when the link is selected. 
 
 ## Custom message based on URL
 
